@@ -158,6 +158,17 @@ function loader (registryOrVersion) {
       throw new Error("Don't know how to deserialize for this mc version ")
     }
 
+    isFuel () {
+      let fuelNames = ['lava_bucket', 'coal_block', 'blaze_rod', 'coal',
+      'charcoal', 'oak_log', 'oak_wood', 'stripped_oak_log', 'stripped_oak_wood', 'spruce_log',
+      'spruce_wood', 'stripped_spruce_log', 'stripped_spruce_wood', 'birch_log',
+      'birch_wood', 'stripped_birch_log', 'stripped_birch_wood', 'jungle_log', 'jungle_wood',
+      'stripped_jungle_log', 'stripped_jungle_wood', 'acacia_log', 'acacia_wood', 'stripped_acacia_log',
+      'stripped_acacia_wood', 'dark_oak_log', 'dark_oak_wood', 'stripped_dark_oak_log',
+      'stripped_dark_oak_wood', 'mangrove_log', 'mangrove_wood', 'stripped_mangrove_log',
+      'stripped_mangrove_wood', 'crimson_stem', 'crimson_wood', 'stripped_crimson_stem', 'stripped_crimson_wood']
+    }
+
     get customName () {
       return this?.nbt?.value?.display?.value?.Name?.value ?? null
     }
