@@ -167,6 +167,7 @@ function loader (registryOrVersion) {
       'stripped_acacia_wood', 'dark_oak_log', 'dark_oak_wood', 'stripped_dark_oak_log',
       'stripped_dark_oak_wood', 'mangrove_log', 'mangrove_wood', 'stripped_mangrove_log',
       'stripped_mangrove_wood', 'crimson_stem', 'crimson_wood', 'stripped_crimson_stem', 'stripped_crimson_wood']
+
     }
 
     get customName () {
