@@ -166,7 +166,11 @@ function loader (registryOrVersion) {
       'stripped_jungle_log', 'stripped_jungle_wood', 'acacia_log', 'acacia_wood', 'stripped_acacia_log',
       'stripped_acacia_wood', 'dark_oak_log', 'dark_oak_wood', 'stripped_dark_oak_log',
       'stripped_dark_oak_wood', 'mangrove_log', 'mangrove_wood', 'stripped_mangrove_log',
-      'stripped_mangrove_wood', 'crimson_stem', 'crimson_wood', 'stripped_crimson_stem', 'stripped_crimson_wood']
+      'stripped_mangrove_wood', 'crimson_stem', 'crimson_hyphae', 'stripped_crimson_stem',
+      'stripped_crimson_hyphae', 'warped_stem', 'warped_hyphae', 'stripped_warped_stem', 'stripped_warped_hyphae',
+      'oak_planks', 'spruce_planks', 'birch_planks', 'jungle_planks', 'acacia_planks', 'dark_oak_planks', 'mangrove_planks',
+      'crimson_planks', 'warped_planks'
+    ]
 
     }
 
